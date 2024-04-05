@@ -17,3 +17,4 @@ $(MAIN): $(OBJS)
 clear:
 	rm -f $(OBJS)
 	rm -f *.txt 
+
