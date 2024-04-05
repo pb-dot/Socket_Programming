@@ -16,7 +16,7 @@ FBI is a command-line interface (CLI) tool designed for packet sniffing on Linux
 To use FBI, execute the following command:
 
 
-	./fbi -i interface_Name [-n number_Of_packets] [-p protocol_name]
+	sudo ./fbi -i interface_Name [-n number_Of_packets] [-p protocol_name]
 
 ## Options
 
