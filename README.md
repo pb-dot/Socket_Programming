@@ -4,6 +4,7 @@ Welcome to my Socket Programming GitHub repository! Here you'll find the followi
 
 1. **FTP Server and Client**
 2. **Chat Server and Client**
+3. **myARPING**
 
 ## FTP Server and Client
 
@@ -32,6 +33,15 @@ The one to one chat server and client enable real-time communication between 2 e
 ### Usage:
 - **Server:** Launch the chat server to act as end system.
 - **Client:** Connect to the server using the client application to act as another end system.
+
+## myArping
+### How to run my custom arping command (returns Mac of target Ip):
+- Copy all the .c files and the makefile in a folder
+- cd into that folder
+- sudo bash  // press enter
+- make       // press enter
+- ./app.out <iterface Name> <targetIp> // press enter
+- <b>  Press ctrl+c to see results</b>
 
 Feel free to contribute to our repository and enhance the software ecosystem!
 
