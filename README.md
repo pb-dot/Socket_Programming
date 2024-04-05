@@ -79,8 +79,8 @@ The one to one chat server and client enable real-time communication between 2 e
 - **Server:** Launch the chat server to act as end system.
 - **Client:** Connect to the server using the client application to act as another end system.
 
-## myArping
-### How to run my custom arping command (returns Mac of target Ip):
+## myArping : Ip to Mac Conversion
+### How to run my custom arping command :
 - Copy all the .c files and the makefile in a folder
 - cd into that folder
 - sudo bash  // press enter
