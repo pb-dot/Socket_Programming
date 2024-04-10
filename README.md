@@ -6,6 +6,7 @@ Welcome to my Socket Programming GitHub repository! Here you'll find the followi
 2. **FTP Server and Client**
 3. **Chat Server and Client**
 4. **myARPING**
+5. **TFTP CLIENT**
 
 # FBI - Linux Packet Sniffer
 
@@ -88,6 +89,17 @@ The one to one chat server and client enable real-time communication between 2 e
 - ./app.out <iterface Name> <targetIp> // press enter
 - <b>  Press ctrl+c to see results</b>
 
-Feel free to contribute to our repository and enhance the software ecosystem!
+## TFTP client : Compatible with any standard TFTP SERVER
+### How to run my standard TFTP CLIENT :
+- Copy all the .c files and the makefile in a folder
+- cd into that folder
+- make       // press enter
+- ./client [Server IP] [69] r   // for reading files from server
+- ./client [Server IP] [69] w   // for writing files to server
 
-Happy coding!
+
+
+
+		Feel free to contribute to our repository and enhance the software ecosystem!
+		
+		Happy coding!
