@@ -4,7 +4,7 @@ Welcome to my Socket Programming GitHub repository! Here you'll find the followi
 
 1. **FBI : Linux Packet Sniffer**
 2. **FTP Server and Client**
-3. **Chat Server and Client**
+3. **one-to-one Chat Server and Client**
 4. **myARPING**
 5. **TFTP CLIENT & Server**
 
