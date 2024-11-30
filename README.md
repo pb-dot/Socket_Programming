@@ -8,24 +8,24 @@ Welcome to my Socket Programming GitHub repository! Here you'll find the followi
 4. **myARPING**
 5. **TFTP CLIENT & Server**
 
-# FBI - Linux Packet Sniffer
+## FBI - Linux Packet Sniffer
 
 FBI is a command-line interface (CLI) tool designed for packet sniffing on Linux systems. It captures network packets, performs detailed analysis on each packet's header layers, and outputs the results into three separate files based on the direction and type of packets. 
 
-## Usage
+### Usage
 
 To use FBI, execute the following command:
 
 
 	sudo ./fbi -i interface_Name [-n number_Of_packets] [-p protocol_name]
 
-## Options
+### Options
 
     -i interface_Name: Specifies the network interface to sniff packets from.
     -n number_Of_packets: (Optional) Specifies the number of packets to capture. If not specified, it captures 10 packets.
     -p protocol_name: (Optional) Filters packets based on the specified protocol.
 
-## Output
+### Output
 
 FBI generates three output files:
 
@@ -35,7 +35,7 @@ FBI generates three output files:
 
     Promiscuous_dd_mm_yyy_hh_min_sec.txt: This file contains packets captured in promiscuous mode, where the network interface listens to all traffic on the network segment, regardless of the destination address. As with the other files, it provides hexadecimal representation and detailed header analysis.
 
-## Filtering
+### Filtering
 
 Using the -p flag, users can filter packets based on the specified protocol. Only packets matching the provided protocol will be included in the output files.
 Example
