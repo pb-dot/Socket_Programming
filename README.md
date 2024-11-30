@@ -12,20 +12,20 @@ Welcome to my Socket Programming GitHub repository! Here you'll find the followi
 
 FBI is a command-line interface (CLI) tool designed for packet sniffing on Linux systems. It captures network packets, performs detailed analysis on each packet's header layers, and outputs the results into three separate files based on the direction and type of packets. 
 
-### Usage
+#### Usage
 
 To use FBI, execute the following command:
 
 
 	sudo ./fbi -i interface_Name [-n number_Of_packets] [-p protocol_name]
 
-### Options
+#### Options
 
     -i interface_Name: Specifies the network interface to sniff packets from.
     -n number_Of_packets: (Optional) Specifies the number of packets to capture. If not specified, it captures 10 packets.
     -p protocol_name: (Optional) Filters packets based on the specified protocol.
 
-### Output
+#### Output
 
 FBI generates three output files:
 
@@ -35,7 +35,7 @@ FBI generates three output files:
 
     Promiscuous_dd_mm_yyy_hh_min_sec.txt: This file contains packets captured in promiscuous mode, where the network interface listens to all traffic on the network segment, regardless of the destination address. As with the other files, it provides hexadecimal representation and detailed header analysis.
 
-### Filtering
+#### Filtering
 
 Using the -p flag, users can filter packets based on the specified protocol. Only packets matching the provided protocol will be included in the output files.
 Example
@@ -54,34 +54,34 @@ Contributors
     
 ## FTP Server and Client
 
-### Description:
+#### Description:
 My custom FTP (File Transfer Protocol) server and client facilitate the transfer of any types of files between a server and a client over a network. The server hosts files and allows multiple clients to connect, upload, and download files over TCP socket.This code doesnt use the standard FTP prtocol. This code can only run on Linux (debian based distros).
 
-### Features:
+#### Features:
 - **Upload and Download:** Allows users to upload files from the client to the server and download files from the server to the client.
 - **Peek** Allows client to view 1st 1kB of his file on server
 - **View & Remove** Allows clients to see the names of his files on server and remove them.
 - **Security:** Implements  authentication  to ensure the confidentiality of transferred files.
 - **Consistency** Server Maintains a Log file for every transaction
 
-### Usage:
+#### Usage:
 - **Server:** Run the FTP server on a designated machine. It will listen for incoming connections from clients.
 - **Client:** Connect to the server using the client application. Navigate directories and transfer files as needed.
 
 ## Chat Server and Client
 
-### Description:
+#### Description:
 The one to one chat server and client enable real-time communication between 2 end users over a network. Users can exchange messages over TCP socket
 
-### Features:
+#### Features:
 - **Real-time Messaging:** Allows users to send and receive messages instantly.
 
-### Usage:
+#### Usage:
 - **Server:** Launch the chat server to act as end system.
 - **Client:** Connect to the server using the client application to act as another end system.
 
 ## myArping : Ip to Mac Conversion
-### How to run my custom arping command :
+#### How to run my custom arping command :
 - Copy all the .c files and the makefile in a folder
 - cd into that folder
 - sudo bash  // press enter
@@ -91,13 +91,13 @@ The one to one chat server and client enable real-time communication between 2 e
 
 ## TFTP client : Compatible with any standard TFTP SERVER
 ## TFTP server : Can Handle Multiple TFTP clients
-### How to run my standard TFTP CLIENT :
+#### How to run my standard TFTP CLIENT :
 - Copy all the .c files and the makefile in a folder
 - cd into that folder
 - make       // press enter
 - ./client_exe [Server IP] [ServerPort] r   // for reading files from server
 - ./client_exe [Server IP] [ServerPort] w   // for writing files to server
-### How to run my TFTP server :
+#### How to run my TFTP server :
 - Copy everything in a folder
 - cd into that folder
 - make       // press enter
