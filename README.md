@@ -2,13 +2,22 @@
 
 Welcome to my Socket Programming GitHub repository! Here you'll find the following exciting software projects:
 
-1. **FBI : Linux Packet Sniffer**
-2. **FTP Server and Client**
-3. **one-to-one Chat Server and Client**
-4. **myARPING**
-5. **TFTP CLIENT & Server**
+1. **Highly Available File Transfer System**
+2. **FBI : Linux Packet Sniffer**
+3. **custom FTP Server and Client**
+4. **standard TFTP Server and Client**
+5. **one-to-one Chating app**
+6. **myARPING -arping clone** 
 
-## FBI - Linux Packet Sniffer
+<br><br><br>
+
+## 1. Highly Available File Transfer System
+
+<a href = "https://github.com/pb-dot/FTS">Click Here To Go this Repo</a>
+
+<br><br><br>
+
+## 2. FBI - Linux Packet Sniffer
 
 FBI is a command-line interface (CLI) tool designed for packet sniffing on Linux systems. It captures network packets, performs detailed analysis on each packet's header layers, and outputs the results into three separate files based on the direction and type of packets. 
 
@@ -51,8 +60,10 @@ Contributors
 
     [Prithijit Banerjee]
     [Raj Shah]
+
+<br><br><br>
     
-## FTP Server and Client
+## 3. custom FTP Server and Client
 
 #### Description:
 My custom FTP (File Transfer Protocol) server and client facilitate the transfer of any types of files between a server and a client over a network. The server hosts files and allows multiple clients to connect, upload, and download files over TCP socket.This code doesnt use the standard FTP prtocol. This code can only run on Linux (debian based distros).
@@ -68,10 +79,33 @@ My custom FTP (File Transfer Protocol) server and client facilitate the transfer
 - **Server:** Run the FTP server on a designated machine. It will listen for incoming connections from clients.
 - **Client:** Connect to the server using the client application. Navigate directories and transfer files as needed.
 
-## Chat Server and Client
+<br><br><br>
+
+## 4. standard TFTP Server and Client
+##### TFTP client : Compatible with any standard TFTP SERVER
+##### TFTP server : Can Handle Multiple standard TFTP clients
+##### File Transfer takes place in octect mode
+#### How to run TFTP CLIENT :
+- Copy all the .c files and the makefile in a folder
+- cd into that folder (keep ur files to transfer in the Demo folder)
+- make       // press enter
+- cd ./build
+- ./client_exe [Server IP] [ServerPort] r   // for reading files from server
+- ./client_exe [Server IP] [ServerPort] w   // for writing files to server
+#### How to run TFTP server (Run 1st) :
+- Copy everything in a folder
+- cd into that folder (keep ur files to transfer in the Demo folder)
+- make       // press enter
+- cd ./build
+- ./server_exe [ServerPort]
+
+<br><br><br>
+
+## 5. one-to-one Chating app
 
 #### Description:
-The one to one chat server and client enable real-time communication between 2 end users over a network. Users can exchange messages over TCP socket
+The one to one chat server and client enable real-time communication between 2 end users over a network. Users can exchange messages over TCP socket.
+One nend user uses the server app and the other uses the client app. 
 
 #### Features:
 - **Real-time Messaging:** Allows users to send and receive messages instantly.
@@ -80,32 +114,14 @@ The one to one chat server and client enable real-time communication between 2 e
 - **Server:** Launch the chat server to act as end system.
 - **Client:** Connect to the server using the client application to act as another end system.
 
-## myArping : Ip to Mac Conversion
+<br><br><br>
+
+## 6. myArping : Ip to Mac Conversion (arpping clone)
 #### How to run my custom arping command :
 - Copy all the .c files and the makefile in a folder
 - cd into that folder
 - sudo bash  // press enter
 - make       // press enter
-- ./app.out <iterface Name> <targetIp> // press enter
+- ./app.out <iterface Name> <targetIp> // press enter [iterface name can be wlo1 eth0]
 - <b>  Press ctrl+c to see results</b>
 
-## TFTP client : Compatible with any standard TFTP SERVER
-## TFTP server : Can Handle Multiple TFTP clients
-#### How to run my standard TFTP CLIENT :
-- Copy all the .c files and the makefile in a folder
-- cd into that folder
-- make       // press enter
-- ./client_exe [Server IP] [ServerPort] r   // for reading files from server
-- ./client_exe [Server IP] [ServerPort] w   // for writing files to server
-#### How to run my TFTP server :
-- Copy everything in a folder
-- cd into that folder
-- make       // press enter
-- ./server_exe [ServerPort]
-
-
-
-
-		Feel free to contribute to our repository and enhance the software ecosystem!
-		
-		Happy coding!
