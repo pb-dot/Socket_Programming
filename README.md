@@ -2,7 +2,7 @@
 
 Welcome to my Socket Programming GitHub repository! Here you'll find the following exciting software projects:
 
-1. **Highly Available File Transfer System**
+1. **Highly Available Distributed File Transfer System**
 2. **FBI : Linux Packet Sniffer**
 3. **custom FTP Server and Client**
 4. **standard TFTP Server and Client**
@@ -11,7 +11,7 @@ Welcome to my Socket Programming GitHub repository! Here you'll find the followi
 
 <br><br><br>
 
-## 1. Highly Available File Transfer System
+## 1. Highly Available Distributed File Transfer System
 
 <a href = "https://github.com/pb-dot/FTS">Click Here To Go this Repo</a>
 
